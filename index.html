@@ -189,6 +189,10 @@
             2) In contrast to the two-stage scheme, our method can perform detection and captioning in one-stage. 
             3) Without bells and whistles, extensive experiments on two commonly used datasets, ScanRefer and Nr3D, demonstrate that our Vote2Cap-DETR surpasses current state-of-the-arts by 11.13% and 7.11% in CIDEr@0.5IoU, respectively. 
           </p>
+          <p>
+            You can also check out our winner presentation for the ICCV Scan2Cap challenge from <a href="https://www.youtube.com/watch?v=RLrdi-Yhn1o">youtube</a>,
+            and the slides are available <a href="https://ch3cook-fdu.github.io/presentation/[ICCV%202023%20workshop%20talk]%20Vote2Cap-DETR.pdf">here</a>.
+          </p>
         </div>
       </div>
     </div>
@@ -205,23 +209,8 @@
       </div>
     </div>
     <!--/ Paper video. -->
-
-
-    <!-- Paper video. -->
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-4">ICCV Scan2Cap Challenge Winner Presentation</h2>
-        <div class="publication-video">
-          <iframe src="https://www.youtube.com/embed/RLrdi-Yhn1o?rel=0&amp;showinfo=0"
-                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        </div>
-      </div>
-    </div>
-    <!--/ Paper video. -->
   </div>
 </section>
-
-
 
 
 <section class="section">
@@ -234,7 +223,7 @@
           <p>
             Vote2Cap-DETR adopts a transformer-based architecture that consists of a scene encoder, a query generator, a transformer decoder, 
             and two parrallel heads for simultaneous localization and caption generation.
-          </p> <br>
+          </p>
           <p>
             Comparing to the decoupled task decoding in Vote2Cap-DETR, Vote2Cap-DETR++ further decouples the feature extraction in the transformer decoder.
           </p>
